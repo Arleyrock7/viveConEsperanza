@@ -1,0 +1,200 @@
+//VARIABLES COLORES
+
+$naranja: #FF7800
+$naranjaTransparente: #FFBC80
+$verde: #2C8946
+$verdeTransparente: #96C4A3
+$blanco: #ffffff
+$blancoNav: #f1f1f2
+$negro: #000000
+$negroTransparente: #404040
+$gris: #9d9d9d
+
+//VARIABLES FONTS
+@import url(https://fonts.googleapis.com/css?family=Roboto:300)
+@import url(https://fonts.googleapis.com/css?family=Oswald)
+
+$font2: Oswald
+
+
+
+html
+	overflow-y: scroll
+	overflow-x: hidden
+body
+	font-family: Roboto
+	.upSection
+		#upBackground
+			background-color: $naranja
+			ul
+				margin-left: -55px
+				list-style: none
+				display: -webkit-inline-box
+				li
+					padding-right: 20px
+					padding-top: 30px
+					padding-bottom: 20px
+					color: $blanco
+					a
+						color: $blanco
+						&:hover
+							text-decoration: none
+	nav
+		background-color: $blancoNav
+		border-color: $blancoNav
+		width: 100%
+		z-index: 99
+		.container-fluid
+			height: auto
+		img
+			height: 50px
+			margin-top: -5px
+		ul
+			list-style: none
+			li
+				a
+					margin-top: 15px
+					margin-bottom: 5px
+					font-family: $font2
+					padding-right: 20px
+					color: $negro
+					&:hover
+						color: $verde
+						text-decoration: none
+	//Sticky after 97px height
+	.affix
+		top: 0px
+		opacity: 0.95
+		//border-radius: 0px
+
+	.bannerSection
+		#bannerBackground
+			margin-top: -20px
+			background-color: $negro
+			height: 700px
+			h5
+				margin-top: 250px
+				color: $blanco
+			h1
+				background-color: $naranja
+				margin-left: 35%
+				margin-right: 35%
+				padding-top: 40px
+				padding-left: 20px
+				padding-right: 20px
+				padding-bottom: 20px
+				color: $blanco
+	.queEsRallySection
+		#queEsRallyBackground
+			margin-top: 100px
+			margin-bottom: 100px
+			#rally_1
+				background-color: $verdeTransparente
+				padding-top: 40px
+				padding-bottom: 70px
+				h2
+					text-align: center
+					color: $blanco
+				hr
+					width: 50%
+					color: $naranja
+				#texto
+					color: $blanco
+				.btn-lg
+					width: 100%
+			#pdf
+				margin-top: 150px
+	.sumateRallySection
+		#sumateRallyBackground				
+			margin-top: 100px
+			margin-bottom: 100px
+			h5
+			h1
+				color: $verde
+			hr
+				width: 50%
+				color: $naranja
+			#texto
+				padding-top: 0px
+				padding-left: 300px
+				padding-right: 300px
+				padding-bottom: 0px
+		#opciones_1
+			margin-top: -50px
+			text-align: center
+		#opciones_2
+			margin-top: 50px
+			text-align: center
+			padding-bottom: 100px
+	.contactUsSection
+		#contactUsBackground
+			padding-top: 100px
+			padding-left: 20px
+			padding-right: 20px
+			padding-bottom: 100px
+			.btn-lg
+				width: 100%
+				background-color: transparent
+				border-color: $blanco
+				color: $blanco
+
+	
+
+	
+	
+
+	footer
+		background-color: $negroTransparente
+		padding-bottom: 80px
+		#footerBackground
+			#footerBackgroundNavBlack
+				background-color: $negro
+				height: 70px
+				margin-bottom: 80px
+		#textoFooter
+			color: rgba(183, 183, 183, 0.81)
+			padding-bottom: 30px
+			ul
+				li
+					list-style: none
+					margin-left: -40px
+					margin-top: 10px
+					a
+						color: $naranja
+						&:hover
+							color: $verde
+							text-decoration: none
+					&:hover
+						#social
+							background-color: $blanco
+							border-radius: 50px
+
+			#footerLine
+				//border-top: 1px solid rgba(183, 183, 183, 0.81)
+
+
+@media (min-width: 769px) and (max-width: 991px)
+	html
+		overflow-y: scroll
+		overflow-x: hidden
+	
+		
+
+@media (min-width: 401px) and (max-width: 768px)
+	
+	
+		
+
+//MOTO X 2 Gen
+@media (min-width: 297px) and (max-width: 400px)
+	
+	
+			
+
+		
+				
+
+					
+
+
+					

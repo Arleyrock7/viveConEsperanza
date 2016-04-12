@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+html {
+  overflow-y: scroll;
+  overflow-x: hidden; }
+
+body {
+  font-family: Roboto; }
+  body .upSection #upBackground {
+    background-color: #FF7800; }
+    body .upSection #upBackground ul {
+      margin-left: -55px;
+      list-style: none;
+      display: -webkit-inline-box; }
+      body .upSection #upBackground ul li {
+        padding-right: 20px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        color: #ffffff; }
+        body .upSection #upBackground ul li a {
+          color: #ffffff; }
+          body .upSection #upBackground ul li a:hover {
+            text-decoration: none; }
+  body nav {
+    background-color: #f1f1f2;
+    border-color: #f1f1f2;
+    width: 100%;
+    z-index: 99; }
+    body nav .container-fluid {
+      height: auto; }
+    body nav img {
+      height: 50px;
+      margin-top: -5px; }
+    body nav ul {
+      list-style: none; }
+      body nav ul li a {
+        margin-top: 15px;
+        margin-bottom: 5px;
+        font-family: Oswald;
+        padding-right: 20px;
+        color: #000000; }
+        body nav ul li a:hover {
+          color: #2C8946;
+          text-decoration: none; }
+  body .affix {
+    top: 0px;
+    opacity: 0.95; }
+  body .bannerSection #bannerBackground {
+    margin-top: -20px;
+    background-color: #000000;
+    height: 700px; }
+    body .bannerSection #bannerBackground h5 {
+      margin-top: 250px;
+      color: #ffffff; }
+    body .bannerSection #bannerBackground h1 {
+      background-color: #FF7800;
+      margin-left: 35%;
+      margin-right: 35%;
+      padding-top: 40px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      color: #ffffff; }
+  body .queEsRallySection #queEsRallyBackground {
+    margin-top: 100px;
+    margin-bottom: 100px; }
+    body .queEsRallySection #queEsRallyBackground #rally_1 {
+      background-color: #96C4A3;
+      padding-top: 40px;
+      padding-bottom: 70px; }
+      body .queEsRallySection #queEsRallyBackground #rally_1 h2 {
+        text-align: center;
+        color: #ffffff; }
+      body .queEsRallySection #queEsRallyBackground #rally_1 hr {
+        width: 50%;
+        color: #FF7800; }
+      body .queEsRallySection #queEsRallyBackground #rally_1 #texto {
+        color: #ffffff; }
+      body .queEsRallySection #queEsRallyBackground #rally_1 .btn-lg {
+        width: 100%; }
+    body .queEsRallySection #queEsRallyBackground #pdf {
+      margin-top: 150px; }
+  body .sumateRallySection #sumateRallyBackground {
+    margin-top: 100px;
+    margin-bottom: 100px; }
+    body .sumateRallySection #sumateRallyBackground h1 {
+      color: #2C8946; }
+    body .sumateRallySection #sumateRallyBackground hr {
+      width: 50%;
+      color: #FF7800; }
+    body .sumateRallySection #sumateRallyBackground #texto {
+      padding-top: 0px;
+      padding-left: 300px;
+      padding-right: 300px;
+      padding-bottom: 0px; }
+  body .sumateRallySection #opciones_1 {
+    margin-top: -50px;
+    text-align: center; }
+  body .sumateRallySection #opciones_2 {
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 100px; }
+  body .contactUsSection #contactUsBackground {
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px; }
+    body .contactUsSection #contactUsBackground .btn-lg {
+      width: 100%;
+      background-color: transparent;
+      border-color: #ffffff;
+      color: #ffffff; }
+  body footer {
+    background-color: #404040;
+    padding-bottom: 80px; }
+    body footer #footerBackground #footerBackgroundNavBlack {
+      background-color: #000000;
+      height: 70px;
+      margin-bottom: 80px; }
+    body footer #textoFooter {
+      color: rgba(183, 183, 183, 0.81);
+      padding-bottom: 30px; }
+      body footer #textoFooter ul li {
+        list-style: none;
+        margin-left: -40px;
+        margin-top: 10px; }
+        body footer #textoFooter ul li a {
+          color: #FF7800; }
+          body footer #textoFooter ul li a:hover {
+            color: #2C8946;
+            text-decoration: none; }
+        body footer #textoFooter ul li:hover #social {
+          background-color: #ffffff;
+          border-radius: 50px; }
+
+@media (min-width: 769px) and (max-width: 991px) {
+  html {
+    overflow-y: scroll;
+    overflow-x: hidden; } }
+
+/*# sourceMappingURL=viveStyles.min.css.map */
