@@ -66,7 +66,7 @@
 
        	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="opciones_1">
        		<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 					Ipsa eos maxime dolorum quae, sed modi, aspernatur rem a hic 
 					alias nam laboriosam tempora et cumque ratione. Sapiente, 
@@ -80,14 +80,14 @@
 					est nostrum dolores.
 				</div>
 
-				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 					Ipsa eos maxime dolorum quae, sed modi, aspernatur rem a hic 
 					alias nam laboriosam tempora et cumque ratione. Sapiente, 
 					est nostrum dolores.
 				</div>
 
-				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 					Ipsa eos maxime dolorum quae, sed modi, aspernatur rem a hic 
 					alias nam laboriosam tempora et cumque ratione. Sapiente, 

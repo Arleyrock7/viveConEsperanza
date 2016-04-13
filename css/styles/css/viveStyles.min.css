@@ -42,6 +42,8 @@ body {
         body nav ul li a:hover {
           color: #2C8946;
           text-decoration: none; }
+    body nav .navbar-brand img {
+      margin-top: 20px; }
   body .affix {
     top: 0px;
     opacity: 0.95; }
@@ -110,6 +112,8 @@ body {
       background-color: transparent;
       border-color: #ffffff;
       color: #ffffff; }
+  body .contactUsSection #contactUsBackground {
+    background-color: #FFBC80; }
   body footer {
     background-color: #404040;
     padding-bottom: 80px; }
@@ -136,6 +140,100 @@ body {
 @media (min-width: 769px) and (max-width: 991px) {
   html {
     overflow-y: scroll;
-    overflow-x: hidden; } }
+    overflow-x: hidden; }
+    html body .upSection #upBackground {
+      height: 85px; }
+    html body .bannerSection #bannerBackground h1 {
+      margin-left: 10%;
+      margin-right: 10%; }
+    html body .sumateRallySection #sumateRallyBackground #texto {
+      padding-left: 100px;
+      padding-right: 100px; }
+    html body .sumateRallySection #opciones_1 div {
+      margin-bottom: 50px; } }
+@media (min-width: 401px) and (max-width: 768px) {
+  html {
+    overflow-y: scroll;
+    overflow-x: hidden; }
+    html body .upSection #upBackground {
+      height: 85px; }
+      html body .upSection #upBackground ul li {
+        margin-left: 20px;
+        font-size: 12px; }
+    html body nav {
+      background-color: #f1f1f2;
+      border-color: #f1f1f2;
+      width: 100%;
+      z-index: 99; }
+      html body nav .container-fluid {
+        height: auto; }
+      html body nav img {
+        height: 50px;
+        margin-top: -5px; }
+      html body nav ul {
+        list-style: none; }
+        html body nav ul li a {
+          margin-top: 15px;
+          margin-bottom: 5px;
+          font-family: Oswald;
+          padding-right: 20px;
+          color: #000000; }
+          html body nav ul li a:hover {
+            color: #2C8946;
+            text-decoration: none; }
+      html body nav .navbar-brand img {
+        margin-top: 0px; }
+    html body .bannerSection #bannerBackground h1 {
+      margin-left: 10%;
+      margin-right: 10%; }
+    html body .sumateRallySection #sumateRallyBackground #texto {
+      padding-left: 10px;
+      padding-right: 10px; }
+    html body .sumateRallySection #opciones_1 div {
+      margin-bottom: 50px; } }
+@media (min-width: 297px) and (max-width: 400px) {
+  html {
+    overflow-y: scroll;
+    overflow-x: hidden; }
+    html body .upSection #upBackground {
+      height: 85px; }
+      html body .upSection #upBackground ul li {
+        margin-left: 10px;
+        font-size: 12px; }
+    html body nav {
+      background-color: #f1f1f2;
+      border-color: #f1f1f2;
+      width: 100%;
+      z-index: 99; }
+      html body nav .container-fluid {
+        height: auto; }
+      html body nav img {
+        height: 50px;
+        margin-top: -5px; }
+      html body nav ul {
+        list-style: none; }
+        html body nav ul li a {
+          margin-top: 15px;
+          margin-bottom: 5px;
+          font-family: Oswald;
+          padding-right: 20px;
+          color: #000000; }
+          html body nav ul li a:hover {
+            color: #2C8946;
+            text-decoration: none; }
+      html body nav .navbar-brand img {
+        margin-top: 0px; }
+    html body .bannerSection #bannerBackground {
+      height: 600px; }
+      html body .bannerSection #bannerBackground h5 {
+        margin-top: 150px; }
+      html body .bannerSection #bannerBackground h1 {
+        margin-left: 10%;
+        margin-right: 10%; }
+    html body .sumateRallySection #sumateRallyBackground #texto {
+      padding-left: 10px;
+      padding-right: 10px; }
+    html body .sumateRallySection #opciones_1 div {
+      margin-bottom: 50px; } }
 
 /*# sourceMappingURL=viveStyles.min.css.map */
