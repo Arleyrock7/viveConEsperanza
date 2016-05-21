@@ -18,17 +18,20 @@
 				<hr align="center" id="lineaQueEsRally">
 
 				<p id="texto">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-					Iure officiis, incidunt, sint enim, dignissimos beatae perspiciatis 
-					aspernatur rerum quia ut sunt! Voluptate nostrum fugit ea consequatur 
-					ducimus? Voluptatum aspernatur, quo.
+					Es una competencia inclusiva y participativa dirigida a
+					transformar los centros educativos de América Latina y
+					el Caribe en modelos de educación, ciencia y tecnología
+					para la sostenibilidad y la gestión de riesgos de desastres,
+					orientados a la comunidad local.
 				</p>
 
 				<p id="texto">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-					Iure officiis, incidunt, sint enim, dignissimos beatae perspiciatis 
-					aspernatur rerum quia ut sunt! Voluptate nostrum fugit ea consequatur 
-					ducimus? Voluptatum aspernatur, quo.
+					Su acción se basa principalmente en el capitulo 25 de la
+					Agenda 21, el Plan de Acción Mundial para el Desarrollo
+					Sostenible UNESCO, el Marco de acción de Sendai, el
+					Acuerdo de Santo Domingo de la OEA y el Convenio de
+					Estocolmo sobre Contaminantes Orgánicos Persistentes
+					COP
 				</p>
 				<button type="submit" class="btn btn-default btn-lg">INSCRIBETE AHORA</button>
 
