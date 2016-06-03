@@ -9,20 +9,64 @@ $blancoNav: #f1f1f2
 $negro: #000000
 $negroTransparente: #404040
 $gris: #9d9d9d
+$grisBackground: #f1f1f2
+$grisImagen: #e6e7e8
+$hoover1: #404041
+$hoover2: #f6921e
 
 //VARIABLES FONTS
-@import url(https://fonts.googleapis.com/css?family=Roboto:300)
-@import url(https://fonts.googleapis.com/css?family=Oswald)
+	//@import url(https://fonts.googleapis.com/css?family=Roboto:300)
+	//@import url(https://fonts.googleapis.com/css?family=Oswald)
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700)
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,300italic,300,700italic,900,900italic)
 
-$font2: Oswald
 
+$font2: Montserrat
+$font3: Merriweather
 
 
 html
 	overflow-y: scroll
 	overflow-x: hidden
 body
-	font-family: Roboto
+	span
+	#quePiensas
+		font-size: 42px
+	
+	#equipoTexto2
+		font-size: 15px	
+		font-family: $font3
+		font-weight: 100
+	#lineaNaranja
+		width: 29%
+		height: 20px
+		color: $naranja
+		float: left
+	i
+		font-size: 25px	
+		font-family: $font3
+		font-weight: lighter
+	#terminos
+		a
+			color: $negro
+			font-style: italic
+			&:hover
+				color: $blanco
+	#texto
+		font-size: 18px
+		font-weight: lighter
+	#cursiva
+		font-family: $font3
+		font-style: italic
+		h5
+			font-size: 25px
+	#texto2Diferente
+		font-family: $font3
+	#textoBoton
+		font-family: $font2
+		font-style: initial
+
+	font-family: $font2
 	.upSection
 		#upBackground
 			background-color: $naranja
@@ -50,6 +94,11 @@ body
 			margin-top: -25px
 		ul
 			list-style: none
+		.nav 
+		.navbar-nav
+		.navbar-right
+			margin-top: -30px
+			margin-bottom: 30px
 			li
 				a
 					margin-top: 15px
@@ -71,8 +120,9 @@ body
 		//border-radius: 0px
 
 	.bannerSection
-		background-image: url('../../../images/main/banner.png')
+		//background-image: url('../../../images/main/banner.png')
 		background-size: cover
+		height: 750px
 		#bannerBackground
 			margin-top: -20px
 
@@ -96,7 +146,8 @@ body
 			margin-top: 100px
 			margin-bottom: 100px
 			#rally_1
-				background-color: $verdeTransparente
+				background-color: $verde
+				opacity: 0.7
 				padding-top: 40px
 				padding-bottom: 70px
 				h2
@@ -111,45 +162,269 @@ body
 					width: 100%
 			#pdf
 				margin-top: 150px
+	
+	.desafios
+		background-color: $verde
+		#desafiosBackground
+			margin-top: 100px
+			h5
+				color: $naranja
+			h1
+				color: $blanco
+			hr
+				width: 50%
+				color: $blanco
+		#backgroundSeccion
+			padding: 50px
+			#contenidoPajaros
+				background-color: $blanco
+				padding: 20px
+			.containerDifferent
+				margin-top: -395px
+			.containerDifferent2
+				margin-top: -80px
+				
+			#imagePajaros
+				text-align: center
+				margin-top: -110px
+				img
+					border-radius: 1200px
+		#imgPajaros
+			margin-top: 100px
+		#imgPajaros2
+			margin-top: 50px
+			padding-bottom: 50px
+	.desafios2
+		#desafios2Background
+			img
+				width: 100%
+				height: 1200px		
+			
 	.sumateRallySection
+		//background-color: $grisBackground
 		#sumateRallyBackground				
 			margin-top: 100px
 			margin-bottom: 100px
 			h5
 			h1
 				color: $verde
+				font-size: 60px
 			hr
-				width: 50%
+			#lineaSumate
+				width: 16%
+				height: 20px
 				color: $naranja
 			#texto
 				padding-top: 0px
 				padding-left: 300px
 				padding-right: 300px
 				padding-bottom: 0px
+				font-size: 20px
+				font-weight: lighter
 		#opciones_1
 			margin-top: -50px
 			text-align: center
+			#seccionIconos
+			img
+				padding: 20px
+				background-color: $grisImagen
+				height: 200px
+				&:hover
+					background-color: $naranja
+			#textoIconos
+				background-color: $hoover1
+				color: $blanco
+				padding: 20px
 		#opciones_2
 			margin-top: 50px
 			text-align: center
 			padding-bottom: 100px
+			#seccionIconos
+			img
+				padding: 20px
+				background-color: $grisImagen
+				height: 200px
+				&:hover
+					background-color: $naranja
+			#textoIconos
+				background-color: $hoover1
+				color: $blanco
+				padding: 20px
+				
 	.contactUsSection
 		#contactUsBackground
+			background-image: url('../../../images/main/img2.png')
 			padding-top: 100px
 			padding-left: 20px
 			padding-right: 20px
 			padding-bottom: 100px
 			.btn-lg
 				width: 100%
+				height: 70px
 				background-color: transparent
-				border-color: $blanco
-				color: $blanco
+				border-color: $negro
+				color: $negro
+				border-width: initial
+				&:hover
+					border-color: $blanco
+					color: $blanco
+			.formularioIndex
+				.form-group
+					input
+						height: 70px
+						font-size: 25px
+						font-weight: 100
+						font-family: $font3
+						font-style: italic
+		#texto2Diferente
+			.terminosCondiciones
+			#texto
+				p
+					background-color: $negro
+					color: $naranja
+					&:hover
+						background-color: $naranja
+						color: $negro
+
+				button
+					background-color: transparent
+					border-color: transparent
+					p
+						font-weight: 100
+						font-family: $font3
+						font-style: italic
+		
+
+
 	.contactUsSection
 		#contactUsBackground
-			background-color: $naranjaTransparente
+			background-image: url('../../../images/main/img2.png')
+			background-size: cover
+			height: auto
 
 	
+	//***************************************************************************************************************
+	.mainExperiencias
+		margin-top: -20px
+		background-color: $verde
+		height: 600px
+		#tituloH1Blanco
+			font-size: 60px
+			margin-top: 270px
+			color: $blanco
+
+	.lideres
+		#lideresBackground
+			h5
+				color: $naranja
+				margin-top: 200px
+			#tituloH1Blanco
+				margin-bottom: 100px
+				background-color: $verde
+				margin-left: 20%
+				margin-right: 20%
+				font-size: 60px
+				padding: 20px
+				color: $blanco
+			h3
+			#texto
+				margin-top: 50px
+				font-size: 20px	
+				font-family: $font3
+				font-weight: lighter
+				p
+					color: $negro
+			#sliderNaranja
+				background-color: $naranjaTransparente
+				height: 300px
+				width: 100%
+				margin-bottom: 200px
+
+	.quieroHacerlo
+		background-color: $naranjaTransparente
+		h1
+			color: $blanco
+			margin-top: 200px
+		h3
+			color: $blanco
+		button
+			margin-top: 20px
+			margin-bottom: 200px
+			color: $verde
+
+	.mainInternacional
+		margin-top: -20px
+		background-color: $naranjaTransparente
+		height: 600px
+		#tituloH1Blanco
+			font-size: 60px
+			margin-top: 270px
+			color: $blanco
+	h3
+	#tituloH3verde
+		margin-top: 200px
+		color: $verde
+		font-weight: 600
+	#textoQueEsComite
+		font-family: $font3
+		font-weight: lighter
+		margin-top: 50px
+		margin-bottom: 100px
+	.mainQueEsComite
+		margin-top: -20px
+		background-color: $verde
+		height: 200px
+		#tituloH3Blanco
+			margin-top: 70px
+			color: $blanco
+		#tituloH3BlancoUp
+			margin-top: 50px
+			color: $blanco
 	
+	
+	.mainNosotros
+		margin-top: -20px
+		background-color: $naranja
+		margin-bottom: 200px
+		height: 600px
+		#tituloH1Blanco
+			font-size: 60px
+			margin-top: 270px
+			color: $blanco
+	h3
+		margin-bottom: 50px
+		font-size: 30px
+	#equipoTitulo
+		margin-bottom: -60px
+	#contenedorEquipo
+		margin-top: 50px
+	#integranteImagen
+		img
+			border-radius: 120px
+	#integrante
+		margin-top: 50px
+	#profesionEquipo
+		margin-top: -30px
+	#lineaGris
+		margin-top: 50px
+		margin-bottom: 50px
+
+	#formulario
+		margin-top: 100px
+		margin-bottom: 100px
+		button
+			border-color: $naranja
+			color: $naranja
+	.mainQuePiensas
+		input
+			height: 70px
+			font-size: 25px
+			font-weight: 100
+			font-family: $font3
+			font-style: italic
+
+	//***************************************************************************************************************	
+
 
 	footer
 		background-color: $negroTransparente
@@ -181,7 +456,33 @@ body
 				//border-top: 1px solid rgba(183, 183, 183, 0.81)
 
 
-@media (min-width: 769px) and (max-width: 991px)
+
+@media (min-width: 992px) and (max-width: 1199px)
+	html
+		overflow-y: scroll
+		overflow-x: hidden
+	body
+		nav
+			.navbar-brand 
+				img
+					margin-top: -12px
+		.banner
+			#bannerBackground
+				img
+					width: 100%
+					height: 600px
+		.desafios2
+			#desafios2Background
+				img
+					width: 100%
+					height: 1100px	
+		.acciones
+			#accionesBackground
+				img
+					width: 100%
+					height: 700px	
+
+@media (min-width: 768px) and (max-width: 991px)
 	html
 		overflow-y: scroll
 		overflow-x: hidden
@@ -189,6 +490,18 @@ body
 			.upSection
 				#upBackground
 					height: 85px
+			nav 
+				.navbar-brand 
+					img
+						margin-top: 5px
+				.nav 
+				.navbar-nav
+				.navbar-right
+					margin-top: -30px
+					margin-bottom: 30px
+					li
+						a
+							font-size: 12px
 			.bannerSection
 				#bannerBackground
 					h5
@@ -196,17 +509,40 @@ body
 						margin-left: 10%
 						margin-right: 10%
 			.sumateRallySection
+
 				#sumateRallyBackground 
 					#texto
 						padding-left: 100px
 						padding-right: 100px
 				#opciones_1
 					div
-						margin-bottom: 50px
+						margin-bottom: 25px
+				#opciones_2
+					margin-top: -7%
+					div
+						margin-bottom: 25px
+					.iconoAparte
+						#seccionIconos
+							margin-bottom: -50px
 	
+			.banner
+				#bannerBackground
+					img
+						width: 100%
+						height: 500px
+			.desafios2
+				#desafios2Background
+					img
+						width: 100%
+						height: 700px	
+			.acciones
+				#accionesBackground
+					img
+						width: 100%
+						height: 500px	
 		
 
-@media (min-width: 401px) and (max-width: 768px)
+@media (min-width: 401px) and (max-width: 767px)
 	html
 		overflow-y: scroll
 		overflow-x: hidden
@@ -224,11 +560,11 @@ body
 				border-color: $blancoNav
 				width: 100%
 				z-index: 99
+				
+
 				.container-fluid
 					height: auto
-				img
-					height: 50px
-					margin-top: -5px
+				
 				ul
 					list-style: none
 					li
@@ -243,7 +579,12 @@ body
 								text-decoration: none
 				.navbar-brand
 					img
-						margin-top: 0px
+						margin-top: -63px
+
+				.navbar-toggle
+					margin-top: 37px
+					margin-bottom: -18px
+
 			.bannerSection
 				#bannerBackground
 					h5
@@ -260,8 +601,35 @@ body
 				#opciones_1
 					div
 						margin-bottom: 50px
-	
+				
+				#opciones_2
+					margin-top: -70px
+					div
+						margin-bottom: 25px
+					.iconoAparte
+						#seccionIconos
+							margin-top: 60px
+							margin-bottom: -50px
+				
+
 		
+			.banner
+				#bannerBackground
+					img
+						width: 100%
+						height: 430px
+			.desafios2
+				#desafios2Background
+					img
+						width: 100%
+						height: 700px	
+			.acciones
+				#accionesBackground
+					img
+						width: 100%
+						height: 500px
+
+
 
 //MOTO X 2 Gen
 @media (min-width: 297px) and (max-width: 400px)
@@ -304,7 +672,13 @@ body
 								text-decoration: none
 				.navbar-brand
 					img
-						margin-top: 0px
+						margin-top: -49px
+						height: 60px
+						width: 30%
+				.navbar-toggle
+					margin-top: 30px
+					margin-bottom: -22px
+
 			.bannerSection
 				#bannerBackground
 					height: 600px
@@ -324,9 +698,24 @@ body
 					div
 						margin-bottom: 50px
 	
+
+			.banner
+				#bannerBackground
+					img
+						width: 100%
+						height: 300px
+			.desafios2
+				#desafios2Background
+					img
+						width: 100%
+						height: 530px	
+			.acciones
+				#accionesBackground
+					img
+						width: 100%
+						height: 300px
 			
 
-		
 				
 
 					

@@ -20,9 +20,7 @@
 
 	<!--?php include'inc/mainSection.php'; ?-->
 	<?php include'inc/banner.php'; ?>
-	<?php include'inc/desafios.php'; ?>
-	<?php include'inc/acciones.php'; ?>
-	<?php include'inc/impulsa.php'; ?>
+	
 
 	
 

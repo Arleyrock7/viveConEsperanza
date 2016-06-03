@@ -9,17 +9,17 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="images/logo/logo2.png" class="img-responsive" alt=""></a>
+      <a class="navbar-brand" href="index.php"><img src="images/logo/logo2.png" class="img-responsive" alt=""></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li class=""><a href="#">INICIO</a></li>
-        <li class=""><a href="#">BUENAS <div>PRÁCTICAS</div></a></li>
-        <li class=""><a href="#">COMITÉ <div>INTERNACIONAL</div></a></li>
+        <li class=""><a href="index.php">INICIO</a></li>
+        <li class=""><a href="experiencias.php">EXPERIENCIAS <div>DE EXITO</div></a></li>
+        <li class=""><a href="internacional.php">COMITÉ <div>INTERNACIONAL</div></a></li>
         <li class=""><a href="#">PREGUNTAS <div>FRECUENTES</div></a></li>
-        <li class=""><a href="#">NOTICIAS</a></li>
+        <li class=""><a href="nosotros.php">NOSOTROS</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

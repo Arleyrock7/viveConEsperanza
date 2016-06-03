@@ -18,15 +18,10 @@
 	<?php include'inc/upSection.php'; ?>
 	<?php include'inc/navSection.php'; ?>
 
-	<!--?php include'inc/mainSection.php'; ?-->
-	<?php include'inc/banner.php'; ?>
-	<?php include'inc/desafios.php'; ?>
-	<?php include'inc/acciones.php'; ?>
-	<?php include'inc/impulsa.php'; ?>
+	<?php include'inc/mainInternacional.php'; ?>
+	<?php include'inc/queEsComite.php'; ?>
+	<?php include'inc/quieroHacerlo.php'; ?>
 
-	
-
-	<?php include'inc/contactUsSection.php'; ?>
 	<?php include'inc/upSection.php'; ?>
 	<?php include'inc/footerSection.php'; ?>
 

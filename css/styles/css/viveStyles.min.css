@@ -1,11 +1,44 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300);
-@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,300italic,300,700italic,900,900italic);
 html {
   overflow-y: scroll;
   overflow-x: hidden; }
 
 body {
-  font-family: Roboto; }
+  font-family: Montserrat; }
+  body #quePiensas {
+    font-size: 42px; }
+  body #equipoTexto2 {
+    font-size: 15px;
+    font-family: Merriweather;
+    font-weight: 100; }
+  body #lineaNaranja {
+    width: 29%;
+    height: 20px;
+    color: #FF7800;
+    float: left; }
+  body i {
+    font-size: 25px;
+    font-family: Merriweather;
+    font-weight: lighter; }
+  body #terminos a {
+    color: #000000;
+    font-style: italic; }
+    body #terminos a:hover {
+      color: #ffffff; }
+  body #texto {
+    font-size: 18px;
+    font-weight: lighter; }
+  body #cursiva {
+    font-family: Merriweather;
+    font-style: italic; }
+    body #cursiva h5 {
+      font-size: 25px; }
+  body #texto2Diferente {
+    font-family: Merriweather; }
+  body #textoBoton {
+    font-family: Montserrat;
+    font-style: initial; }
   body .upSection #upBackground {
     background-color: #FF7800; }
     body .upSection #upBackground ul {
@@ -32,13 +65,16 @@ body {
       margin-top: -25px; }
     body nav ul {
       list-style: none; }
-      body nav ul li a {
+    body nav .navbar-right {
+      margin-top: -30px;
+      margin-bottom: 30px; }
+      body nav .navbar-right li a {
         margin-top: 15px;
         margin-bottom: 5px;
-        font-family: Oswald;
+        font-family: Montserrat;
         padding-right: 20px;
         color: #000000; }
-        body nav ul li a:hover {
+        body nav .navbar-right li a:hover {
           color: #2C8946;
           text-decoration: none; }
     body nav .navbar-brand img {
@@ -48,8 +84,8 @@ body {
     top: 0px;
     opacity: 0.95; }
   body .bannerSection {
-    background-image: url("../../../images/main/banner.png");
-    background-size: cover; }
+    background-size: cover;
+    height: 750px; }
     body .bannerSection #bannerBackground {
       margin-top: -20px; }
       body .bannerSection #bannerBackground h5 {
@@ -72,7 +108,8 @@ body {
       margin-top: 100px;
       margin-bottom: 100px; }
       body .queEsRallySection #queEsRallyBackground #rally_1 {
-        background-color: #96C4A3;
+        background-color: #2C8946;
+        opacity: 0.7;
         padding-top: 40px;
         padding-bottom: 70px; }
         body .queEsRallySection #queEsRallyBackground #rally_1 h2 {
@@ -87,38 +124,228 @@ body {
           width: 100%; }
       body .queEsRallySection #queEsRallyBackground #pdf {
         margin-top: 150px; }
+  body .desafios {
+    background-color: #2C8946; }
+    body .desafios #desafiosBackground {
+      margin-top: 100px; }
+      body .desafios #desafiosBackground h5 {
+        color: #FF7800; }
+      body .desafios #desafiosBackground h1 {
+        color: #ffffff; }
+      body .desafios #desafiosBackground hr {
+        width: 50%;
+        color: #ffffff; }
+    body .desafios #backgroundSeccion {
+      padding: 50px; }
+      body .desafios #backgroundSeccion #contenidoPajaros {
+        background-color: #ffffff;
+        padding: 20px; }
+      body .desafios #backgroundSeccion .containerDifferent {
+        margin-top: -395px; }
+      body .desafios #backgroundSeccion .containerDifferent2 {
+        margin-top: -80px; }
+      body .desafios #backgroundSeccion #imagePajaros {
+        text-align: center;
+        margin-top: -110px; }
+        body .desafios #backgroundSeccion #imagePajaros img {
+          border-radius: 1200px; }
+    body .desafios #imgPajaros {
+      margin-top: 100px; }
+    body .desafios #imgPajaros2 {
+      margin-top: 50px;
+      padding-bottom: 50px; }
+  body .desafios2 #desafios2Background img {
+    width: 100%;
+    height: 1200px; }
   body .sumateRallySection #sumateRallyBackground {
     margin-top: 100px;
     margin-bottom: 100px; }
     body .sumateRallySection #sumateRallyBackground h1 {
-      color: #2C8946; }
-    body .sumateRallySection #sumateRallyBackground hr {
-      width: 50%;
+      color: #2C8946;
+      font-size: 60px; }
+    body .sumateRallySection #sumateRallyBackground #lineaSumate {
+      width: 16%;
+      height: 20px;
       color: #FF7800; }
     body .sumateRallySection #sumateRallyBackground #texto {
       padding-top: 0px;
       padding-left: 300px;
       padding-right: 300px;
-      padding-bottom: 0px; }
+      padding-bottom: 0px;
+      font-size: 20px;
+      font-weight: lighter; }
   body .sumateRallySection #opciones_1 {
     margin-top: -50px;
     text-align: center; }
+    body .sumateRallySection #opciones_1 img {
+      padding: 20px;
+      background-color: #e6e7e8;
+      height: 200px; }
+      body .sumateRallySection #opciones_1 img:hover {
+        background-color: #FF7800; }
+    body .sumateRallySection #opciones_1 #textoIconos {
+      background-color: #404041;
+      color: #ffffff;
+      padding: 20px; }
   body .sumateRallySection #opciones_2 {
     margin-top: 50px;
     text-align: center;
     padding-bottom: 100px; }
+    body .sumateRallySection #opciones_2 img {
+      padding: 20px;
+      background-color: #e6e7e8;
+      height: 200px; }
+      body .sumateRallySection #opciones_2 img:hover {
+        background-color: #FF7800; }
+    body .sumateRallySection #opciones_2 #textoIconos {
+      background-color: #404041;
+      color: #ffffff;
+      padding: 20px; }
   body .contactUsSection #contactUsBackground {
+    background-image: url("../../../images/main/img2.png");
     padding-top: 100px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 100px; }
     body .contactUsSection #contactUsBackground .btn-lg {
       width: 100%;
+      height: 70px;
       background-color: transparent;
-      border-color: #ffffff;
-      color: #ffffff; }
+      border-color: #000000;
+      color: #000000;
+      border-width: initial; }
+      body .contactUsSection #contactUsBackground .btn-lg:hover {
+        border-color: #ffffff;
+        color: #ffffff; }
+    body .contactUsSection #contactUsBackground .formularioIndex .form-group input {
+      height: 70px;
+      font-size: 25px;
+      font-weight: 100;
+      font-family: Merriweather;
+      font-style: italic; }
+  body .contactUsSection #texto2Diferente #texto p {
+    background-color: #000000;
+    color: #FF7800; }
+    body .contactUsSection #texto2Diferente #texto p:hover {
+      background-color: #FF7800;
+      color: #000000; }
+  body .contactUsSection #texto2Diferente #texto button {
+    background-color: transparent;
+    border-color: transparent; }
+    body .contactUsSection #texto2Diferente #texto button p {
+      font-weight: 100;
+      font-family: Merriweather;
+      font-style: italic; }
   body .contactUsSection #contactUsBackground {
+    background-image: url("../../../images/main/img2.png");
+    background-size: cover;
+    height: auto; }
+  body .mainExperiencias {
+    margin-top: -20px;
+    background-color: #2C8946;
+    height: 600px; }
+    body .mainExperiencias #tituloH1Blanco {
+      font-size: 60px;
+      margin-top: 270px;
+      color: #ffffff; }
+  body .lideres #lideresBackground h5 {
+    color: #FF7800;
+    margin-top: 200px; }
+  body .lideres #lideresBackground #tituloH1Blanco {
+    margin-bottom: 100px;
+    background-color: #2C8946;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 60px;
+    padding: 20px;
+    color: #ffffff; }
+  body .lideres #lideresBackground #texto {
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: Merriweather;
+    font-weight: lighter; }
+    body .lideres #lideresBackground #texto p {
+      color: #000000; }
+  body .lideres #lideresBackground #sliderNaranja {
+    background-color: #FFBC80;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 200px; }
+  body .quieroHacerlo {
     background-color: #FFBC80; }
+    body .quieroHacerlo h1 {
+      color: #ffffff;
+      margin-top: 200px; }
+    body .quieroHacerlo h3 {
+      color: #ffffff; }
+    body .quieroHacerlo button {
+      margin-top: 20px;
+      margin-bottom: 200px;
+      color: #2C8946; }
+  body .mainInternacional {
+    margin-top: -20px;
+    background-color: #FFBC80;
+    height: 600px; }
+    body .mainInternacional #tituloH1Blanco {
+      font-size: 60px;
+      margin-top: 270px;
+      color: #ffffff; }
+  body #tituloH3verde {
+    margin-top: 200px;
+    color: #2C8946;
+    font-weight: 600; }
+  body #textoQueEsComite {
+    font-family: Merriweather;
+    font-weight: lighter;
+    margin-top: 50px;
+    margin-bottom: 100px; }
+  body .mainQueEsComite {
+    margin-top: -20px;
+    background-color: #2C8946;
+    height: 200px; }
+    body .mainQueEsComite #tituloH3Blanco {
+      margin-top: 70px;
+      color: #ffffff; }
+    body .mainQueEsComite #tituloH3BlancoUp {
+      margin-top: 50px;
+      color: #ffffff; }
+  body .mainNosotros {
+    margin-top: -20px;
+    background-color: #FF7800;
+    margin-bottom: 200px;
+    height: 600px; }
+    body .mainNosotros #tituloH1Blanco {
+      font-size: 60px;
+      margin-top: 270px;
+      color: #ffffff; }
+  body h3 {
+    margin-bottom: 50px;
+    font-size: 30px; }
+  body #equipoTitulo {
+    margin-bottom: -60px; }
+  body #contenedorEquipo {
+    margin-top: 50px; }
+  body #integranteImagen img {
+    border-radius: 120px; }
+  body #integrante {
+    margin-top: 50px; }
+  body #profesionEquipo {
+    margin-top: -30px; }
+  body #lineaGris {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  body #formulario {
+    margin-top: 100px;
+    margin-bottom: 100px; }
+    body #formulario button {
+      border-color: #FF7800;
+      color: #FF7800; }
+  body .mainQuePiensas input {
+    height: 70px;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: Merriweather;
+    font-style: italic; }
   body footer {
     background-color: #404040;
     padding-bottom: 80px; }
@@ -142,12 +369,35 @@ body {
           background-color: #ffffff;
           border-radius: 50px; }
 
-@media (min-width: 769px) and (max-width: 991px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  html {
+    overflow-y: scroll;
+    overflow-x: hidden; }
+
+  body nav .navbar-brand img {
+    margin-top: -12px; }
+  body .banner #bannerBackground img {
+    width: 100%;
+    height: 600px; }
+  body .desafios2 #desafios2Background img {
+    width: 100%;
+    height: 1100px; }
+  body .acciones #accionesBackground img {
+    width: 100%;
+    height: 700px; } }
+@media (min-width: 768px) and (max-width: 991px) {
   html {
     overflow-y: scroll;
     overflow-x: hidden; }
     html body .upSection #upBackground {
       height: 85px; }
+    html body nav .navbar-brand img {
+      margin-top: 5px; }
+    html body nav .navbar-right {
+      margin-top: -30px;
+      margin-bottom: 30px; }
+      html body nav .navbar-right li a {
+        font-size: 12px; }
     html body .bannerSection #bannerBackground h1 {
       margin-left: 10%;
       margin-right: 10%; }
@@ -155,8 +405,23 @@ body {
       padding-left: 100px;
       padding-right: 100px; }
     html body .sumateRallySection #opciones_1 div {
-      margin-bottom: 50px; } }
-@media (min-width: 401px) and (max-width: 768px) {
+      margin-bottom: 25px; }
+    html body .sumateRallySection #opciones_2 {
+      margin-top: -7%; }
+      html body .sumateRallySection #opciones_2 div {
+        margin-bottom: 25px; }
+      html body .sumateRallySection #opciones_2 .iconoAparte #seccionIconos {
+        margin-bottom: -50px; }
+    html body .banner #bannerBackground img {
+      width: 100%;
+      height: 500px; }
+    html body .desafios2 #desafios2Background img {
+      width: 100%;
+      height: 700px; }
+    html body .acciones #accionesBackground img {
+      width: 100%;
+      height: 500px; } }
+@media (min-width: 401px) and (max-width: 767px) {
   html {
     overflow-y: scroll;
     overflow-x: hidden; }
@@ -172,22 +437,22 @@ body {
       z-index: 99; }
       html body nav .container-fluid {
         height: auto; }
-      html body nav img {
-        height: 50px;
-        margin-top: -5px; }
       html body nav ul {
         list-style: none; }
         html body nav ul li a {
           margin-top: 15px;
           margin-bottom: 5px;
-          font-family: Oswald;
+          font-family: Montserrat;
           padding-right: 20px;
           color: #000000; }
           html body nav ul li a:hover {
             color: #2C8946;
             text-decoration: none; }
       html body nav .navbar-brand img {
-        margin-top: 0px; }
+        margin-top: -63px; }
+      html body nav .navbar-toggle {
+        margin-top: 37px;
+        margin-bottom: -18px; }
     html body .bannerSection #bannerBackground h1 {
       margin-left: 10%;
       margin-right: 10%; }
@@ -195,7 +460,23 @@ body {
       padding-left: 10px;
       padding-right: 10px; }
     html body .sumateRallySection #opciones_1 div {
-      margin-bottom: 50px; } }
+      margin-bottom: 50px; }
+    html body .sumateRallySection #opciones_2 {
+      margin-top: -70px; }
+      html body .sumateRallySection #opciones_2 div {
+        margin-bottom: 25px; }
+      html body .sumateRallySection #opciones_2 .iconoAparte #seccionIconos {
+        margin-top: 60px;
+        margin-bottom: -50px; }
+    html body .banner #bannerBackground img {
+      width: 100%;
+      height: 430px; }
+    html body .desafios2 #desafios2Background img {
+      width: 100%;
+      height: 700px; }
+    html body .acciones #accionesBackground img {
+      width: 100%;
+      height: 500px; } }
 @media (min-width: 297px) and (max-width: 400px) {
   html {
     overflow-y: scroll;
@@ -220,14 +501,19 @@ body {
         html body nav ul li a {
           margin-top: 15px;
           margin-bottom: 5px;
-          font-family: Oswald;
+          font-family: Montserrat;
           padding-right: 20px;
           color: #000000; }
           html body nav ul li a:hover {
             color: #2C8946;
             text-decoration: none; }
       html body nav .navbar-brand img {
-        margin-top: 0px; }
+        margin-top: -49px;
+        height: 60px;
+        width: 30%; }
+      html body nav .navbar-toggle {
+        margin-top: 30px;
+        margin-bottom: -22px; }
     html body .bannerSection #bannerBackground {
       height: 600px; }
       html body .bannerSection #bannerBackground h5 {
@@ -239,6 +525,15 @@ body {
       padding-left: 10px;
       padding-right: 10px; }
     html body .sumateRallySection #opciones_1 div {
-      margin-bottom: 50px; } }
+      margin-bottom: 50px; }
+    html body .banner #bannerBackground img {
+      width: 100%;
+      height: 300px; }
+    html body .desafios2 #desafios2Background img {
+      width: 100%;
+      height: 530px; }
+    html body .acciones #accionesBackground img {
+      width: 100%;
+      height: 300px; } }
 
 /*# sourceMappingURL=viveStyles.min.css.map */

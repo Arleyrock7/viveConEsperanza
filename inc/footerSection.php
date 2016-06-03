@@ -9,14 +9,13 @@
 					VIVE CON ESPERANZA
 					<hr id="footerLine">
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-						Nulla fugiat commodi in soluta perspiciatis dignissimos, 
-						architecto, ratione voluptatibus quis, minus sequi. Nulla deserunt 
-						eligendi provident voluptas maiores, fugiat officiis facilis. <br><br>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-						Nulla fugiat commodi in soluta perspiciatis dignissimos, 
-						architecto, ratione voluptatibus quis, minus sequi. Nulla deserunt 
-						eligendi provident voluptas maiores, fugiat officiis facilis.
+						Somos una organización internacional de América Latina y el Caribe que nace de la necesidad de movilizar la participación 
+						de niños, niñas y adolescentes como motores de un tipo de desarrollo respetuoso con el futuro de las generaciones actuales 
+						y futuras, con incidencia en lo local y perspectiva internacional.
+						<br><br>
+						Nuestra Misión. Trabajamos con los diversos sectores sociales en la construcción e implementación de políticas y estrategias 
+						de preservación medioambiental, desarrollando herramientas educativas, culturales y tecnológicas capaces de impulsar una sociedad 
+						sostenible y resiliente, adaptada a los cambios del entorno y llena de esperanza.
 					</p>
 				</div>
 
@@ -45,10 +44,10 @@
 					REDES
 					<hr id="footerLine">
 					<ul>
-						<li><a href="#"><img src="images/social/facebook.png" alt="" height="35px" id="social"></a> Facebook</li>
-						<li><a href="#"><img src="images/social/twitter.png" alt="" height="35x" id="social"></a> Twitter</li>
-						<li><a href="#"><img src="images/social/youtube.png" alt="" height="35px" id="social"></a> Youtube</li>
-						<li><a href="mailto:name@email.com"><img src="images/social/mail.png" alt="" height="35px" id="social"><a href="mailto:name@email.com"> Escribenos!</a></li>
+						<li><a href="https://www.facebook.com/fundacionviveconesperanza" target="_blank"><img src="images/social/facebook.png" alt="" height="35px" id="social"></a> Facebook</li>
+						<li><a href="https://twitter.com/vivexesperanza" target="_blank"><img src="images/social/twitter.png" alt="" height="35x" id="social"></a> Twitter</li>
+						<li><a href="https://www.youtube.com/user/Vivesperanza/feed" target="_blank"><img src="images/social/youtube.png" alt="" height="35px" id="social"></a> Youtube</li>
+						<li><a href="mailto:contacto@viveconesperanza.org"><img src="images/social/mail.png" alt="" height="35px" id="social"><a href="contacto@viveconesperanza.org "> Escribenos!</a></li>
 					</ul>
 				</div>
 			</div>
