@@ -1,10 +1,10 @@
-<div class="queEsComite">
+<!--<div class="queEsComite">
 <div class="container">
   <div class="row">
-  
+
        	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  id="queEsComiteBackground"><!-- id="desafiosBackground"-->
-			<div class="row">
-				
+			<!--<div class="row">
+
 				<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
 				</div>
 
@@ -33,7 +33,7 @@
 							Por otro lado, esta instancia evalúa los mecanismos implementados por el Rally para responder
 							a los desafíos actuales en el ámbito del desarrollo sostenible y la gestión de riesgos y
 							propone distintas acciones consideradas prioritarias dentro de los compromisos asumidos
-							por el país y organización socia en los entornos nacionales e internacionales.	
+							por el país y organización socia en los entornos nacionales e internacionales.
 						</p>
 				</div>
 
@@ -45,15 +45,245 @@
   </div>
 </div>
 </div>
+</div>-->
+
+<!--******************************************************************************************************************************-->
+<div class="mainQueEsComiteImages">
+<div class="container">
+  <div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="mainQueEsComiteBackgroundTitulo"><!-- id="desafiosBackground"-->
+			<h3 align="center" id="tituloH3">¿QUIENES CONFORMAN EL COMITÉ INTERNACIONAL?</h3>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="row mainQueEsComiteBackgroundImgaes">
+	<div class="container" id="">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <p align="center">
+            <img src="images/internacional/logos/1.png" alt="" / width="100%">
+          <p>
+				</div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <p align="center">
+            <img src="images/internacional/logos/2.png" alt="" / width="100%">
+          <p>
+				</div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <p align="center">
+            <img src="images/internacional/logos/3.png" alt="" / width="100%">
+          <p>
+				</div>
+			</div>
+		</div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  id="">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <p align="center">
+            <img src="images/internacional/logos/4.png" alt="" / width="100%">
+          <p>
+				</div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <p align="center">
+            <img src="images/internacional/logos/5.png" alt="" / width="100%">
+          <p>
+				</div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <p align="center">
+            <img src="images/internacional/logos/6.png" alt="" / width="100%">
+          <p>
+				</div>
+			</div>
+		</div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  id="">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <p align="center">
+            <img src="images/internacional/logos/7.png" alt="" / width="100%">
+          <p>
+				</div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <p align="center">
+            <img src="images/internacional/logos/8.png" alt="" / width="100%">
+          <p>
+				</div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <p align="center">
+            <img src="images/internacional/logos/9.png" alt="" / width="100%">
+          <p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
 
 
+
+
+
+
+
+  <div class="mainQueEsComiteImages">
+  <div class="container">
+    <div class="row">
+  		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="mainQueEsComiteBackgroundTitulo"><!-- id="desafiosBackground"-->
+  			<h3 align="center" id="tituloH3">ESCUELAS LÍDERES</h3>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="row mainQueEsComiteBackgroundImgaes">
+  	<div class="container" id="">
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <p align="center">
+              <img src="images/equipo/1.png" alt="" />
+            <p>
+          </div>
+
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <p align="center">
+              <img src="images/equipo/1.png" alt="" />
+            <p>
+          </div>
+
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <p align="center">
+              <img src="images/equipo/1.png" alt="" />
+            <p>
+          </div>
+
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <p align="center">
+              <img src="images/equipo/1.png" alt="" />
+            <p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <p align="center">
+              <img src="images/equipo/1.png" alt="" />
+            <p>
+          </div>
+
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <p align="center">
+              <img src="images/equipo/1.png" alt="" />
+            <p>
+          </div>
+
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <p align="center">
+              <img src="images/equipo/1.png" alt="" />
+            <p>
+          </div>
+
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <p align="center">
+              <img src="images/equipo/1.png" alt="" />
+            <p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          </div>
+
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="imgAlone">
+            <p align="center">
+              <img src="images/equipo/1.png" alt="" />
+            <p>
+          </div>
+
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="mainQueEsComiteImages">
+<div class="container">
+  <div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="mainQueEsComiteBackgroundTitulo"><!-- id="desafiosBackground"-->
+			<h3 align="center" id="tituloH3">¿QUIENES CONFORMAN EL COMITÉ INTERNACIONAL?</h3>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="row mainQueEsComiteBackgroundImgaes divEspacio">
+	<div class="container" id="">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+          <p align="center">
+            <img src="images/internacional/logos/11.png" alt="" / width="100%">
+          <p>
+				</div>
+
+        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+          <p align="center">
+            <img src="images/internacional/logos/22.png" alt="" / width="100%">
+          <p>
+				</div>
+
+        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+          <p align="center">
+            <img src="images/internacional/logos/33.png" alt="" / width="100%">
+          <p>
+				</div>
+
+        <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+          <p align="center">
+            <img src="images/internacional/logos/44.png" alt="" / width="100%">
+          <p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
 <!--******************************************************************************************************************************-->
 
 
-<div class="mainQueEsComite">
+
+
+
+
+
+
+
+
+<div class="mainQueEsComite1">
 <div class="container">
   <div class="row">
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  id="mainQueEsComiteBackground"><!-- id="desafiosBackground"-->
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="mainQueEsComiteBackground"><!-- id="desafiosBackground"-->
 
 			<h3 align="center" id="tituloH3Blanco">MINISTERIO DE EDUCACION PÚBLICA <br> (MEP) DE COSTA RICA</h3>
 
@@ -61,12 +291,12 @@
   </div>
 </div>
 </div>
-	
+
 	<div class="row">
 	<div class="container">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  id="">
 			<div class="row">
-				
+
 				<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
 				</div>
 
@@ -93,13 +323,13 @@
 			</div>
 		</div>
 	</div>
-	</div>	
+	</div>
 
 
 <!--******************************************************************************************************************************-->
 
 
-<div class="mainQueEsComite">
+<div class="mainQueEsComite2">
 <div class="container">
   <div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  id="mainQueEsComiteBackground"><!-- id="desafiosBackground"-->
@@ -110,12 +340,12 @@
   </div>
 </div>
 </div>
-	
+
 	<div class="row">
 	<div class="container">
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  id="">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<div class="row">
-				
+
 				<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
 				</div>
 
@@ -135,19 +365,19 @@
 			</div>
 		</div>
 	</div>
-	</div>	
+	</div>
 
 
 
 	<!--******************************************************************************************************************************-->
 
 
-<div class="mainQueEsComite">
+<div class="mainQueEsComite3">
 <div class="container">
   <div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  id="mainQueEsComiteBackground"><!-- id="desafiosBackground"-->
 
-			<h3 align="center" id="tituloH3BlancoUp">COMISIÓN NACIONAL DOMINICANA DE COOPERACIÓN <br>
+			<h3 align="center" id="tituloH3Blanco">COMISIÓN NACIONAL DOMINICANA DE COOPERACIÓN <br>
 											   	CON UNESCO DEL MINISTERIO DE CULTURA DE <br>
 												REPÚBLICA DOMINICANA</h3>
 
@@ -155,12 +385,12 @@
   </div>
 </div>
 </div>
-	
+
 	<div class="row">
 	<div class="container">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  id="">
 			<div class="row">
-				
+
 				<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
 				</div>
 
@@ -187,14 +417,14 @@
 			</div>
 		</div>
 	</div>
-	</div>	
+	</div>
 
 
 
 <!--******************************************************************************************************************************-->
 
 
-<div class="mainQueEsComite">
+<div class="mainQueEsComite4">
 <div class="container">
   <div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  id="mainQueEsComiteBackground"><!-- id="desafiosBackground"-->
@@ -205,12 +435,12 @@
   </div>
 </div>
 </div>
-	
+
 	<div class="row">
 	<div class="container">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  id="">
 			<div class="row">
-				
+
 				<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
 				</div>
 
@@ -231,14 +461,14 @@
 			</div>
 		</div>
 	</div>
-	</div>	
+	</div>
 
 
 
 	<!--******************************************************************************************************************************-->
 
 
-<div class="mainQueEsComite">
+<div class="mainQueEsComite5">
 <div class="container">
   <div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  id="mainQueEsComiteBackground"><!-- id="desafiosBackground"-->
@@ -249,12 +479,12 @@
   </div>
 </div>
 </div>
-	
+
 	<div class="row">
 	<div class="container">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  id="">
 			<div class="row">
-				
+
 				<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
 				</div>
 
@@ -274,14 +504,14 @@
 			</div>
 		</div>
 	</div>
-	</div>	
+	</div>
 
 
 
 		<!--******************************************************************************************************************************-->
 
 
-<div class="mainQueEsComite">
+<div class="mainQueEsComite6">
 <div class="container">
   <div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  id="mainQueEsComiteBackground"><!-- id="desafiosBackground"-->
@@ -292,12 +522,12 @@
   </div>
 </div>
 </div>
-	
+
 	<div class="row">
 	<div class="container">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  id="">
 			<div class="row">
-				
+
 				<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
 				</div>
 
@@ -317,14 +547,14 @@
 			</div>
 		</div>
 	</div>
-	</div>	
+	</div>
 
 
 
 			<!--******************************************************************************************************************************-->
 
 
-<div class="mainQueEsComite">
+<div class="mainQueEsComite7">
 <div class="container">
   <div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  id="mainQueEsComiteBackground"><!-- id="desafiosBackground"-->
@@ -335,12 +565,12 @@
   </div>
 </div>
 </div>
-	
+
 	<div class="row">
 	<div class="container">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"  id="">
 			<div class="row">
-				
+
 				<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
 				</div>
 
@@ -359,4 +589,4 @@
 			</div>
 		</div>
 	</div>
-	</div>	
+	</div>

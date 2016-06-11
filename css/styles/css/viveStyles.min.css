@@ -284,7 +284,8 @@ body {
       color: #2C8946; }
   body .mainInternacional {
     margin-top: -20px;
-    background-color: #FFBC80;
+    background-image: url("../../../images/internacional/header_comite.jpg");
+    background-size: cover;
     height: 600px; }
     body .mainInternacional #tituloH1Blanco {
       font-size: 60px;
@@ -309,6 +310,66 @@ body {
     body .mainQueEsComite #tituloH3BlancoUp {
       margin-top: 50px;
       color: #ffffff; }
+  body .mainQueEsComite1 {
+    background-image: url("../../../images/internacional/1.jpg");
+    background-size: cover;
+    height: 200px; }
+    body .mainQueEsComite1 #tituloH3Blanco {
+      margin-top: 70px;
+      color: #ffffff; }
+  body .mainQueEsComite2 {
+    background-image: url("../../../images/internacional/2.jpg");
+    background-size: cover;
+    height: 200px; }
+    body .mainQueEsComite2 #tituloH3Blanco {
+      margin-top: 70px;
+      color: #ffffff; }
+  body .mainQueEsComite3 {
+    background-image: url("../../../images/internacional/3.jpg");
+    background-size: cover;
+    height: 200px; }
+    body .mainQueEsComite3 #tituloH3Blanco {
+      margin-top: 70px;
+      color: #ffffff; }
+  body .mainQueEsComite4 {
+    background-image: url("../../../images/internacional/4.jpg");
+    background-size: cover;
+    height: 200px; }
+    body .mainQueEsComite4 #tituloH3Blanco {
+      margin-top: 70px;
+      color: #ffffff; }
+  body .mainQueEsComite5 {
+    background-image: url("../../../images/internacional/5.jpg");
+    background-size: cover;
+    height: 200px; }
+    body .mainQueEsComite5 #tituloH3Blanco {
+      margin-top: 70px;
+      color: #ffffff; }
+  body .mainQueEsComite6 {
+    background-image: url("../../../images/internacional/6.jpg");
+    background-size: cover;
+    height: 200px; }
+    body .mainQueEsComite6 #tituloH3Blanco {
+      margin-top: 70px;
+      color: #ffffff; }
+  body .mainQueEsComite7 {
+    background-image: url("../../../images/internacional/7.jpg");
+    background-size: cover;
+    height: 200px; }
+    body .mainQueEsComite7 #tituloH3Blanco {
+      margin-top: 70px;
+      color: #ffffff; }
+  body .mainQueEsComiteImages h3 {
+    margin-top: 150px;
+    margin-bottom: 120px;
+    color: #2C8946; }
+  body .mainQueEsComiteBackgroundImgaes {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    body .mainQueEsComiteBackgroundImgaes img {
+      margin-bottom: 50px; }
+  body .divEspacio {
+    margin-bottom: 150px; }
   body .mainNosotros {
     margin-top: -20px;
     background-color: #FF7800;

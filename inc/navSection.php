@@ -18,13 +18,10 @@
         <li class=""><a href="index.php">INICIO</a></li>
         <li class=""><a href="experiencias.php">EXPERIENCIAS <div>DE EXITO</div></a></li>
         <li class=""><a href="internacional.php">COMITÉ <div>INTERNACIONAL</div></a></li>
-        <li class=""><a href="#">PREGUNTAS <div>FRECUENTES</div></a></li>
+        <li class=""><a href="preguntas.php">PREGUNTAS <div>FRECUENTES</div></a></li>
         <li class=""><a href="nosotros.php">NOSOTROS</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
   </div>
 </nav>
-
-
-
